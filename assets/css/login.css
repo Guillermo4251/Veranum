@@ -1,0 +1,111 @@
+
+
+
+body { margin:0;}
+
+.principal{
+  background-image:url(../images/brandonreqlia.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
+  
+
+}
+#nombre_login{
+    display: flex;
+    font-size: 60px;
+    color: white;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 110px;
+    font-family: 'Segoe UI ligHt', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+
+    margin:0;
+  
+}
+        
+#texto_uwu{
+    display: flex;
+    padding-left: 115px;
+    font-size: 16px;
+    color: white;
+
+
+    font-family: 'Segoe UI ligHt', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: unset;
+
+    margin:0;
+}
+#acceder{
+  display: flex;
+  padding-left: 115px;
+  font-size: 20px;
+  color: white;
+  padding-top: 54px;
+
+
+  font-family: 'Segoe UI ligHt', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: unset;
+
+  margin:0;
+  
+  
+}
+
+
+
+
+@media (min-width: 811px) {
+  #acceder{
+    display: none;
+  }
+  #nombre_login{
+padding-top: 10px;
+margin: 0%;
+padding-left: 10px;
+
+font-family: 'Segoe UI ligHt', Tahoma, Geneva, Verdana, sans-serif;
+font-style: unset;
+
+
+   
+  }
+  #texto_uwu{
+    display: none;
+  }
+  #flex{
+   
+    margin:0;
+    padding: 0;
+    margin-top: 25px;
+    font-size: 16px;
+    width: 80%;
+    padding-left: 5px;
+ 
+  }
+}
+#brandon{
+  opacity: 0.8;
+  
+}
+
+
+/* --------------Celulares-------------------*/
+
+@media (max-width: 400px){
+    #texto_uwu{
+      display: none;
+    }
+    #nombre_login{
+      display: none;
+    }
+#acceder{
+  display: none;
+}
+#brandon{
+  padding-top: 60px;
+}
+}
+
